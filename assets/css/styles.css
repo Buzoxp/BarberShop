@@ -9912,6 +9912,7 @@ header {
   background-color: #121619;
   height: 200px;
   width: 100%;
+  padding-top: 5rem;
 }
 
 .pie--logo {
@@ -9919,8 +9920,26 @@ header {
   height: 45px;
 }
 
-.pie--contenedor {
-  padding-top: 10rem;
+.page {
+  height: 330px;
+  width: 100%;
+  border-top: 1px solid #d1d1d1;
+  padding: 5rem 0rem;
+}
+
+.page--img {
+  height: 140px;
+  width: 140px;
+  vertical-align: top;
+}
+
+.page--img--texto {
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.page--img--bloque {
+  margin-left: 3rem;
 }
 
 .header--button--medium {

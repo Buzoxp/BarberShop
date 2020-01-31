@@ -1,0 +1,27 @@
+//seccion texto
+
+
+
+//Secccion Page
+.page {
+height: 330px;
+width: 100%;
+border-top: 1px solid $color-lightgray;
+padding: 5rem 0rem;
+}
+
+.page--img {
+    height: 140px;
+    width: 140px;
+    vertical-align: top;
+}
+
+.page--img--texto {
+    text-decoration: none;
+    vertical-align: top;
+    
+}
+
+.page--img--bloque {
+    margin-left: 3rem;
+}
