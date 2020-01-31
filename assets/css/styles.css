@@ -9942,6 +9942,20 @@ header {
   margin-left: 3rem;
 }
 
+.pagination--container {
+  text-align: center;
+  background-color: #e6e7e7;
+  height: 115px;
+}
+
+.pagination--container--item {
+  text-align: center;
+}
+
+.pagination {
+  width: 12rem;
+}
+
 .header--button--medium {
   width: 180px;
   height: 52px;

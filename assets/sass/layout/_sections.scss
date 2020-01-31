@@ -26,3 +26,19 @@ padding: 5rem 0rem;
 .page--img--bloque {
     margin-left: 3rem;
 }
+
+//Secccion Pagination
+
+.pagination--container {
+    text-align: center;
+    background-color: $color-platinum;
+    height: 115px;
+}
+
+.pagination--container--item{
+    text-align: center;
+}
+
+.pagination {
+    width: 12rem;
+}
