@@ -1,13 +1,22 @@
 //seccion texto
 
+h5 {
+   color: $color-lightgray;
+   font-family: $roboto;
+   font-weight: $regular;
+}
 
+p {
+    line-height: 2rem;
+}
 
 //Secccion Page
 .page {
 height: 330px;
 width: 100%;
 border-top: 1px solid $color-lightgray;
-padding: 5rem 0rem;
+padding: 5rem 4rem;
+margin-bottom: 2rem;
 
 }
 
@@ -17,10 +26,20 @@ padding: 5rem 0rem;
     vertical-align: top;
 }
 
+.naomi {
+    font-weight: $bold;
+    font-size: $large;
+    font-family: $playfair;
+    font-style: italic;
+}
+
 .page--img--texto {
     text-decoration: none;
     vertical-align: top;
-    
+    font-weight: 300;
+    font-size: medium;
+    font-family: $roboto;
+    color: $color-spanishpink;
 }
 
 .page--img--bloque {
@@ -37,8 +56,17 @@ padding: 5rem 0rem;
 
 .pagination--container--item{
     text-align: center;
+    justify-content: center;
 }
 
 .pagination {
-    width: 12rem;
-}
+    margin-left: 30vmax;
+    padding-top: 35px;
+    color: $color-nickel;
+  }
+
+ 
+
+
+  
+

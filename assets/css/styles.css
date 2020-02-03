@@ -9908,6 +9908,10 @@ header {
   padding-top: 8rem;
 }
 
+.header--icono {
+  padding-top: 15rem;
+}
+
 .pie {
   background-color: #121619;
   height: 200px;
@@ -9920,11 +9924,22 @@ header {
   height: 45px;
 }
 
+h5 {
+  color: #d1d1d1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  line-height: 2rem;
+}
+
 .page {
   height: 330px;
   width: 100%;
   border-top: 1px solid #d1d1d1;
-  padding: 5rem 0rem;
+  padding: 5rem 4rem;
+  margin-bottom: 2rem;
 }
 
 .page--img {
@@ -9933,9 +9948,20 @@ header {
   vertical-align: top;
 }
 
+.naomi {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
 .page--img--texto {
   text-decoration: none;
   vertical-align: top;
+  font-weight: 300;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  color: #ecbcba;
 }
 
 .page--img--bloque {
@@ -9950,10 +9976,13 @@ header {
 
 .pagination--container--item {
   text-align: center;
+  justify-content: center;
 }
 
 .pagination {
-  width: 12rem;
+  margin-left: 30vmax;
+  padding-top: 35px;
+  color: #6c6e70;
 }
 
 .header--button--medium {
