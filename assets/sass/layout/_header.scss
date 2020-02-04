@@ -3,16 +3,17 @@ header {
     background-repeat: no-repeat;
    background-size: cover;
    padding-bottom: 10rem;
-   height: 100%;
+   height: 60vmax; 
+   
    
  }
 
  .header--text {
      font-family: $playfair;
      font-weight: bolder;
-     font-size: $xx-large;
+     font-size: 8vmax;
      font-style: italic;
-     padding-top: 8rem;
+     padding-top: 1.5em;
  }
 
  .header--icono {
